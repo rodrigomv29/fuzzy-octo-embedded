@@ -19,7 +19,7 @@ int fib(int x){
 int main(){
     cout<<"Hello world!"<<endl;
     //int solution = factorial(4);
-    int num = 50;
+    int num = 40;
     int solution2 = fib(num);
     //cout<<solution<<endl;
     cout << "The" << num << "th" << "fibonacci number is:"<< endl;
