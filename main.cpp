@@ -19,9 +19,11 @@ int fib(int x){
 int main(){
     cout<<"Hello world!"<<endl;
     //int solution = factorial(4);
-    int num = 40;
-    int solution2 = fib(num);
+    int num;
+    cin >> num;
+    int solution = fib(num);
     //cout<<solution<<endl;
     cout << "The" << num << "th" << "fibonacci number is:"<< endl;
-    cout<<solution2<<endl;
+    cout<<solution<<endl;
+    // edits
 }
